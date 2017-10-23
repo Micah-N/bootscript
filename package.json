@@ -1,0 +1,27 @@
+{
+  "name": "bootscript",
+  "version": "1.0.0",
+  "homepage": "https://github.com/shawnkoon/bootscript#readme",
+  "description": "Bootstrap 4 component in TypeScript for react apps.",
+  "author": {
+    "name": "shawnkoon",
+    "email": "shawnkangsan@gmail.com",
+    "url": "https://github.com/shawnkoon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnkoon/bootscript.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/shawnkoon/bootscript/issues"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf ./dist"
+  }
+}
