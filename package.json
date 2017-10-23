@@ -17,11 +17,17 @@
   "bugs": {
     "url": "https://github.com/shawnkoon/bootscript/issues"
   },
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/react": "^16.0.18"
+  },
   "devDependencies": {
+    "tslint": "^5.8.0",
     "typescript": "^2.5.3"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "lint": "tslint -c tslint.json './src/**/*.{ts,tsx}'"
   }
 }
