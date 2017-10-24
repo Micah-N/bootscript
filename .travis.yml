@@ -1,0 +1,14 @@
+notifications:
+  email: false
+
+language: node_js
+node_js:
+  - "8"
+
+before_script:
+  - "npm run clean"
+  - "npm install"
+
+script:
+  - "npm run lint"
+  - "npm run build"
